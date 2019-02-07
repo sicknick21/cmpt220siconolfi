@@ -5,7 +5,7 @@ public class lab2problem4 {
 		Scanner input = new Scanner(System.in);
 		int first, second;
 		System.out.print("Enter first character: ");
-		first = input.next().charAt(0); //use next() to the string input and then use charAt() to get the first character in the string
+		first = input.next().charAt(0); 
 		System.out.print("Enter second character: ");
 		second = input.next().charAt(0);
 		int res = first + second;
