@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+// JA: You could have used compareTo() method
 public class lab2problem5 {
 
 
