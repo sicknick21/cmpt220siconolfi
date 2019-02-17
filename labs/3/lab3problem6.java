@@ -17,7 +17,7 @@ public class lab3problem6 {
 		public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter a string : ");
-		String w = input.next();
+		String w = input.nextLine(); // JA
 		System.out.println("Vowel Count : "+countVowel(w)); 
 
 		}
