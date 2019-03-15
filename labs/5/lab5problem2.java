@@ -16,7 +16,7 @@ public class lab5problem2 {
 	
 			sqDiff += (x[i] - mean) * (x[i] - mean);
 	
-			return Math.sqrt(sqDiff / len);
+			return Math.sqrt(sqDiff / (len - 1)); // JA
 }
 	public static void main(String[] args) {
 		double arr[] = new double[10];
