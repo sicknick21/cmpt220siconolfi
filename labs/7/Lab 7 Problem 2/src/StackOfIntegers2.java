@@ -6,13 +6,14 @@ public class StackOfIntegers2 {
 	System.out.println("Enter an integer value");
 	int num = input.nextInt();
 	StackOfIntegers stack = new StackOfIntegers();
-		for (int i=2; i<=num; i++)
-			while (num%i == 0) {
-				stack.push(i);
-				num = num/i;
-			}
-		for (int i=0; i<stack.getSize(); i++)
-			System.out.println(stack.pop() + "");
+	for (int i=2; i<=num; i++)
+		while (num%i == 0) {
+			stack.push(i);
+			num = num/i;
+		}
+	int size = stack.getSize();
+	for (int i=0; i< size; i++)
+		System.out.println(stack.pop() + " ");
 	}
 }
 
