@@ -51,7 +51,7 @@ public class Triangle extends GeometricObject {
        public double getArea(){
            double s=(side1+side2+side3)/2;
             double area=s*(s-side1)*(s-side2)*(s-side3);
-            return area;
+            return Math.sqrt(area);
   
        }
   
