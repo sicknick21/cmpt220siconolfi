@@ -1,4 +1,6 @@
 
 public class AbstractClass {
+	
+	// JA: ??
 
 }

@@ -6,6 +6,7 @@ public class Clerk extends Employee{
 
 	@Override
 	public double salary(double hours) {
+		// JA: ??
 		return 0;
 	}
 
